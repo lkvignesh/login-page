@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+height:100vh;
+width:100vw;
+background-image:url('paint.jpg');
+background-size: cover;
+}
+.container{
+    height:100%;
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    position:absolute;
+    height:60%;
+    width:60%;
+    border-radius: 15px ;
+    background-color:black;
+    opacity:0.8;
+    box-shadow: 10px 10px 10px 20px black;
+}
+.card2{
+    position:absolute;
+    height:550px;
+    width:400px;
+    border-radius: 30px;
+    left:750px;
+    background-color: white;
+    opacity: 0.9;
+    background-color: rgba(223, 252, 255, 0.96);
+    box-shadow:5px 5px 5px 15px  rgba(223, 252, 255, 0.96);
+    
+}
+.flx{
+   
+    display:flex;
+    flex-direction: row;
+    column-gap:30px;
+}
+h2{
+    color: white;
+    text-align: justify;
+    position: relative;
+    top:150px;
+    left:60px;
+}
+#kl{
+    position: relative;
+    border: 0px;
+    border-radius: 20px;
+    padding:3px 15px 3px 15px;
+    top:275px;
+    left:60px;
+    font-size: 18px;
+    
+}
+#kl:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px  rgb(0, 255, 255);
+    background-color: rgb(176, 246, 246);
+    transition: 0.8s;  
+}
+p{
+    color:rgb(195, 189, 189);
+    position: relative;
+    top:165px;
+    left:60px;
+    font-size: 11pt;
+}
+h1{
+    font-family: 'Hind', sans-serif;
+    color: rgba(6, 132, 167, 0.679);
+    margin-top: 20px;
+    margin-left: 20px;
+   letter-spacing: 3px;
+}
+.box{
+    height:40px;
+    width:150px;
+    background-color: rgba(6, 132, 167, 0.679);
+    position: relative;
+    top:35px;
+    left:25px;
+    border-radius:10px;
+    color:white;
+}
+img{
+    height:100%;
+    width:41px;
+    border-radius: 8px;
+}
+h6{
+   margin-left: 45px; 
+bottom: 13px;
+   position: absolute;
+}
+pre{
+    position: relative;
+    top:75px;
+    left:140px;
+
+}
+input{
+    position: relative;
+    left:20px;
+    top:120px;
+    height:30px;
+    width:350px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background:none;
+    
+}
+#lk{
+    height: 40px;
+    width:352px;
+    position:absolute;
+    right:27px;
+   top:420px;
+   border-radius:10px;
+   border:0px ;
+   font-size:15pt ;
+   letter-spacing: 5px;
+   background-color: rgba(6, 132, 167, 0.679);
+   color: white;
+}
+#lk:hover{
+    cursor: pointer;
+    color:rgb(251, 255, 0);
+}
+input::placeholder{
+    text-decoration: solid;
+    color: black;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+#o:hover{
+    color:yellow;
+}
